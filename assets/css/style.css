@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f172a;
+  font-family: Arial, sans-serif;
+}
+
+.login-page {
+  width: 30%;
+  margin: auto;
+}
+
+.form {
+  background: #020617;
+  padding: 3rem 2.5rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #020617;
+  margin-top: 1rem;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.form input {
+  font-family: Arial, sans-serif;
+  outline: 0;
+  background: transparent;
+  width: 100%;
+  border: 1px solid #475569;
+  border-radius: 5px;
+  font-size: .9rem;
+  padding: .8rem;
+  color: #cbd5e1;
+}
+
+.form button {
+  font-family: Arial, sans-serif;
+  outline: 0;
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid #475569;
+  color: #cbd5e1;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: .8rem 0;
+  font-size: 1.1rem;
+  transition: background-color .3s;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background-color: #cbd5e1;
+  border-color: #cbd5e1;
+  color: #020617;
+}
+
+/* Table Start */
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #475569;
+  text-align: left;
+  padding: 8px;
+}
+
+thead>tr {
+  background-color: #94a3b8;
+  color: #020617;
+}
+
+tbody>tr {
+  color: #94a3b8;
+}
+
+.text-center {
+  text-align: center;
+  color: #94a3b8;
+  margin: 1.5rem 0;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.remove-btn {
+  color: #b91c1c;
+}
+
+.update-btn {
+  color: #1d4ed8;
+  margin-left: .5rem;
+}
+
+/* Table End */

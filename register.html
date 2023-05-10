@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <title>Indexed DB User Registration</title>
+</head>
+
+<body>
+  <div class="login-page">
+    <div class="form">
+      <form class="register-form">
+        <input type="text" placeholder="First Name" name="name" />
+        <input type="text" placeholder="Family" name="family" />
+        <input type="text" placeholder="Age" name="age" />
+        <input type="text" placeholder="City" name="city" />
+        <input type="password" placeholder="Password" name="password" />
+        <input type="text" placeholder="Email address" name="email" />
+        <button>Register</button>
+      </form>
+    </div>
+  </div>
+
+
+  <h2 class="text-center">Users list</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Family</th>
+        <th>Age</th>
+        <th>City</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="usersTable">
+
+    </tbody>
+  </table>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
